@@ -1,0 +1,128 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.custom-file-label {
+    position: relative;
+    background-color: #eef2f7;
+    padding: 12px 20px;
+    border: 2px dashed #aaa;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.custom-file-label input[type="file"] {
+    display: none;
+}
+
+button#uploadBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button#uploadBtn:hover {
+    background-color: #0056b3;
+}
+
+.progress-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.progress-bar-bg {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #28a745;
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+#percent {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#status {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#status.success {
+    color: #28a745;
+}
+
+#status.error {
+    color: #dc3545;
+}
+
+#status.uploading {
+    color: #ffc107;
+}
+
+.file-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.file-list li {
+    margin: 8px 0;
+    background: #f1f3f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.file-list li:hover {
+    background: #e2e6ea;
+}
