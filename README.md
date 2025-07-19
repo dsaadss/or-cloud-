@@ -1,6 +1,8 @@
 # Simple Local File Upload & Download Server
 
 A minimal Python server to upload and download files via your browser, running locally on your network.
+mostly for iphone user that want to transfer files fast from the pc to the phone but it can be from any pc in the local web.
+for free connection from the world you can use radmin vpn to local network .
 
 ## Features
 
