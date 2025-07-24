@@ -1,0 +1,10 @@
+Welcome to the shared notes!
+
+Here are some useful links:
+https://www.python.org
+https://github.com
+http://example.com
+
+
+Hello my name is yarden
+Feel free to add more links and text after pressing "Edit".
